@@ -11,4 +11,5 @@ Pod::Spec.new do |spec|
     #original source: https://github.com/davedelong/CHCSVParser
     spec.source       = { :git => 'https://github.com/nicktmro/CHCSVParser.git', :tag => '1.0.2' }
     spec.source_files = 'CHCSVParser/**/*.{h,m}'
+    spec.requires_arc = true
 end
